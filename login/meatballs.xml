@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cookbook version="46">
+	<recipe>
+		<title>Meatballs</title>
+		<preptime>15 min</preptime>
+		<cooktime>20 min</cooktime>
+		<calories>210 cals</calories>
+		<ingredient>
+		  <li>1 lb ground beef</li>
+		  <li>1 large egg</li>
+		  <li>1/4 cup onion</li>
+		  <li>1/3 breadcrumbs or oats</li>
+		  <li>1/4 cup milk</li>
+		  <li>1 teaspoon Worcestershire sauce</li>
+		  <li>salt, to taste</li>
+		  <li>black pepper, to taste</li>
+		</ingredient>
+		<recipetext>
+			<li>Mix ground beef, egg, onion, breadcrumbs, milk, Worcestershire sauce, salt and freshly ground black pepper to taste together.
+			Shape mixture by Tablespoonfuls into 1-1/2-inch balls.
+			Place the meatballs in a lightly greased 13x9x2-inch or 15-1/2x9-1/2x1-inch baking dish.
+			Bake, uncovered, in a 400 degree Fahrenheit oven until light brown, about 20 to 25 minutes.
+			Drain off any excess fat.
+			Use meatballs as desired.
+			</li>
+			<li>
+			FREEZING:.
+			Cover and allow meatballs to cool slightly before freezing. No special equipment is needed in the preparation for freezing. Ziplock bags work fine for me. Allow meatballs to thaw about 30 minutes at room temperature before using. Use as desired with your favorite recipes.
+			</li>
+		</recipetext>
+
+		<quantity>6 Servings</quantity>
+		<imagepath>meatballs.jpg</imagepath>
+
+		<nutrition>
+		<li>
+			Serving Size: 1 (108 g)</li>
+		<li>	
+			Servings Per Recipe: 6</li>
+		<li>
+			Calories 209.9
+			</li>
+		<li>
+			Total Fat 12.9 g 19%
+			</li>
+		<li>
+			Cholesterol 83.9 mg
+			</li>
+		<li>
+			Sodium 193.4 mg 8%
+			</li>
+		<li>
+			Protein 16.4 g 32%
+			</li>
+
+		</nutrition>
+
+	</recipe>
+</cookbook>

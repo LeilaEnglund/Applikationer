@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cookbook version="46">
+	<recipe>
+		<title>Pancakes</title>
+		<preptime>Prep 5 min</preptime>
+		<cooktime>Cook 10 min</cooktime>
+		<quantity>4 Servings</quantity>
+		<calories>240 cals</calories>
+	<ingredient>
+		  <li>1 cup flour</li>
+		  <li>2 tablespoons white sugar</li>
+		  <li>2 teaspoons baking powder</li>
+		  <li>1 teaspoon salt</li>
+		  <li>1 egg</li>
+		  <li>1 cup milk</li>
+		  <li>2 tablespoons vegetable oil</li>
+	</ingredient>
+	<recipetext>
+		  <li>In a large bowl, mix flour, sugar, baking powder and salt. Make a well in the center, and pour in milk, egg and oil. Mix until smooth.</li>
+  		  <li>Heat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides and serve hot.</li>
+  	</recipetext>
+
+		<imagepath>pancakes.jpg</imagepath>
+	<nutrition>
+		<li>
+			Amount per serving (4 total)</li>
+		<li>	
+			Calories:247 kcal
+			12%</li>
+		<li>
+			Fat: 9.6 g
+			15%
+			</li>
+		<li>
+			Carbs: 33.5g
+			11%
+			</li>
+		<li>
+			Protein: 6.8 g
+			14%
+			</li>
+		<li>
+			Cholesterol: 51 mg
+			17%
+			</li>
+		<li>
+			Sodium: 804 mg
+			32%
+			</li>
+	</nutrition>
+	</recipe>
+</cookbook>
