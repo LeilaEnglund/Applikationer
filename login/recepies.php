@@ -25,9 +25,8 @@ $name=$_SESSION['username'];
 
 if (isset($_SESSION['username'])){
 
-echo '<a href="session.php">Sign Out</a>'.$name;
+echo "<li><a href='session.php'>Sign Out: " . $name . "<a></li>";
 }
-
 else
 {
   echo '<li><a href="process.php">Sign In</a></li>'; 
@@ -42,12 +41,12 @@ else
 					<br>
 					<br>
 
-				<ul><li><a class="style" href="meatballs.php">Meatballs</a></li></ul>
+				<a class="style" href="meatballs.php">Meatballs</a>
 				<br>
 				<br>
 				<br>
 
-				<ul><li><a class="style" href="panncakes.php">Pancakes</a></li></ul>
+				<a class="style" href="panncakes.php">Pancakes</a>
 
 		</div>
 		</div>

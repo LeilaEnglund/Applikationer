@@ -109,12 +109,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <body>
 
   <div class="bg">  
+<br>
+<br>
+<br>
 
-         <p class="intro" ><b>Sign Up</b> 
+         <p class="intro" style="font-size: 40px" >Sign Up</p>
             <br>
             <br>
-
-       Please fill this form to create an account.</p>
+<p class="intro"><br></p>
+       <p class="intro" style="font-size: 20px"> Please fill this form to create an account.</p>
        <p class="intro"><br></p>
        <p class="intro"><br></p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
@@ -133,12 +136,17 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                  <p class="intro" ><input type="password" name="confirm_password" class="form-control" value="<?php echo $confirm_password; ?>"></p>
                 <p class="intro" > <span class="help-block"><?php echo $confirm_password_err; ?></span></p>
             </div>
-            
+            <p class="intro"><br></p>
+            <p class="intro" > <input style="font-size: 30px" type="reset" class="btn btn-default" value="Reset"></p>
+             <p class="intro"><br></p>
                 <div class="form-group">
-                <p class="intro" > <input type="submit" class="btn btn-primary" value="Submit"></p>
-                <p class="intro" > <input type="reset" class="btn btn-default" value="Reset"></p>
+                <p class="intro"> <input style="font-size: 30px" type="submit" class="btn btn-primary" value="Submit"></p>
+                <p class="intro"><br></p>
+                
             </div>
-             <p class="intro" >Already have an account? <a href="process.php">Login here</a>.</p>
+            <p class="intro"><br></p>
+            <p class="intro"><br></p>
+             <p class="intro" style="font-size: 20px">Already have an account? <a href="process.php">Login here</a>.</p>
         </form>
     </div>    
 </div>

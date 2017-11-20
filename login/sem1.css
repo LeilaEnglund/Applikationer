@@ -56,13 +56,6 @@ blockquote, q {
 }
 /*........................................reset stylesheet above.......................................*/
 
-p.text{
-
-  color: rgb(14, 52, 53);
-  background-color: rgba(255, 255, 255, 0.5);
-
-}
-
 
 p.intro{ /* . selects the element with class intro*/
 	text-align: center;
@@ -70,10 +63,6 @@ p.intro{ /* . selects the element with class intro*/
 	background-color: rgba(255, 255, 255, 0.5);
 
 }
-
-
-
-
 
 }
 

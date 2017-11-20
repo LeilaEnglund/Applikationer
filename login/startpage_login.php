@@ -21,29 +21,41 @@ $name=$_SESSION['username'];
   				<li><a href="calendar.php">Calendar</a></li>
   				
 <li>
+
 <?php
 
 if (isset($_SESSION['username'])){
 
-echo '<a href="session.php">Sign Out</a>'.$name;
+echo "<li><a href='session.php'>Sign Out: " . $name . "<a></li>";
 }
-
 else
 {
   echo '<li><a href="process.php">Sign In</a></li>'; 
 }
 ?>
+ 			
 </li>
+</ul>
 
-				</ul>
-				<br><!--the br tag makes an line break-->
+				
+			<br><!--the br tag makes an line break-->
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
 				
 				<!--end of nav. bar-->
 
-					<h1 class="intro">Welcome to My Recipes</h1>
+					<p class="intro" style="font-size: 40px">Welcome to My Recipes</p>
 					<p class="intro">The perfect page for finding your favorite recipes</p>
-					<br>
-					<p class="intro"><b>Have a look at the menu of the month: <a href="calendar.html">Calendar</a></b></p>
+					<p class="intro"><br></p>
+					<p class="intro"><b>Have a look at the menu of the month: <a href="calendar.php">Calendar</a></b></p>
 
 
 				

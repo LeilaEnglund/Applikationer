@@ -41,9 +41,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 if (isset($_SESSION['username'])){
 
-echo '<a href="session.php">Sign Out</a>'.$name;
+echo "<li><a href='session.php'>Sign Out: " . $name . "<a></li>";
 }
-
 else
 {
   echo '<li><a href="process.php">Sign In</a></li>'; 
@@ -141,7 +140,7 @@ $result = mysqli_query($link, $query);
 
         printf ("(%s) %s\n", $row["name"], $row["comment"]);
 
-        if (isset($_SESSION['username'])){
+        if (isset($_SESSION['id'])){
 
 
         echo "<a href='delete_pancakes.php?id=" . $row['id'] . "'>Delete</a>";

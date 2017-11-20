@@ -44,9 +44,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 if (isset($_SESSION['username'])){
 
-echo '<a href="session.php">Sign Out</a>'.$name;
+echo "<li><a href='session.php'>Sign Out: " . $name . "<a></li>";
 }
-
 else
 {
   echo '<li><a href="process.php">Sign In</a></li>'; 
