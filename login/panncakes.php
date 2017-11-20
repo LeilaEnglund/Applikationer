@@ -140,7 +140,7 @@ $result = mysqli_query($link, $query);
 
         printf ("(%s) %s\n", $row["name"], $row["comment"]);
 
-        if (isset($_SESSION['id'])){
+        if (($_SESSION['username']) === $row['name']){
 
 
         echo "<a href='delete_pancakes.php?id=" . $row['id'] . "'>Delete</a>";
