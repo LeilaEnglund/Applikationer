@@ -113,7 +113,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <br>
 <br>
 
-         <p class="intro" style="font-size: 40px" >Sign Up</p>
+         <p class="intro" style="font-size: 40px" >Register as a user</p>
             <br>
             <br>
 <p class="intro"><br></p>
@@ -122,17 +122,17 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
        <p class="intro"><br></p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
              <p class="intro" ><div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>"></p>
-                <p class="intro" ><label>Username:<sup>*</sup></label></p>
+                <p class="intro" ><label><b>Username:</b><sup>*</sup></label></p>
                 <p class="intro" > <input type="text" name="username"class="form-control" value="<?php echo $username; ?>"></p>
                  <p class="intro" ><span class="help-block"><?php echo $username_err; ?></span></p>
             </div>    
             <p class="intro" ><div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>"></p>
-                 <p class="intro" ><label>Password:<sup>*</sup></label></p>
+                 <p class="intro" ><label><b>Password:</b><sup>*</sup></label></p>
                  <p class="intro" ><input type="password" name="password" class="form-control" value="<?php echo $password; ?>"></p>
                  <p class="intro" ><span class="help-block"><?php echo $password_err; ?></span></p>
             </div>
             <p class="intro" > <div class="form-group <?php echo (!empty($confirm_password_err)) ? 'has-error' : ''; ?>"></p>
-                 <p class="intro" ><label>Confirm Password:<sup>*</sup></label></p>
+                 <p class="intro" ><label><b>Confirm Password:</b><sup>*</sup></label></p>
                  <p class="intro" ><input type="password" name="confirm_password" class="form-control" value="<?php echo $confirm_password; ?>"></p>
                 <p class="intro" > <span class="help-block"><?php echo $confirm_password_err; ?></span></p>
             </div>
@@ -144,9 +144,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <p class="intro"><br></p>
                 
             </div>
-            <p class="intro"><br></p>
-            <p class="intro"><br></p>
-             <p class="intro" style="font-size: 20px">Already have an account? <a href="process.php">Login here</a>.</p>
+           <br>
+           <br>
+           
+             <p class="intro" style="font-size: 20px">Already have an account?</p> 
+              <p class="intro"><br></p>
+             <p class="intro"><a href="process.php">Login here</a></p>
+              <p class="intro"><br></p>
         </form>
     </div>    
 </div>

@@ -27,7 +27,7 @@ $name=$_SESSION['username'];
 
 if (isset($_SESSION['username'])){
 
-echo "<li><a href='session.php'>Sign Out: " . $name . "<a></li>";
+echo "<li><a href='session.php'>Sign Out:" . $name . "<a></li>";
 }
 else
 {

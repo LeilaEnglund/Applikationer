@@ -88,6 +88,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
           <li><a href="calendar.php">Calendar</a></li>
           
 <li>
+
+
 <?php
 
 if (isset($_SESSION['username'])){
@@ -105,7 +107,8 @@ else
 <br>
 <br>
 <br>
-<br>
+<p class="intro"><br></p>
+<p class='intro' style="font-size: 30px">Sign in</p>
 		    <p class="intro"><br></p> 
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
     <div <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">

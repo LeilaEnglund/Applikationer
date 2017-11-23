@@ -38,7 +38,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 				<ul class="navbar">
  	 			<li><a href="sem1.php">Home</a></li>
   				<li><a class="active" href="recepies.php">Recipes</a></li>
-  				<li><a href="calendar.html">Calendar</a></li>
+  				<li><a href="calendar.php">Calendar</a></li>
 <li>
 <?php
 
